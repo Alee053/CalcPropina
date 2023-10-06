@@ -21,10 +21,10 @@
   function convert() {
     console.log(pagar);
     if (moneda == "Bs") {
-      pagar = pagar * 6.96;
+      pagar = pagar / 6.96;
       moneda = "Usd";
     } else {
-      pagar = pagar / 6.96;
+      pagar = pagar * 6.96;
       moneda = "Bs";
     }
   }
