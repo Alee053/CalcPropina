@@ -78,7 +78,7 @@
   <ol>
     {#each historial as val}
       <li transition:scale>
-        {val.pagar} Bs + {val.porce} = {val.total}
+        {val.pagar} {val.moneda} + {val.porce} = {val.total}
         {val.moneda}
       </li>
     {/each}
